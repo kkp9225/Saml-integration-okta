@@ -1,0 +1,11 @@
+server:
+  port: 9080
+
+spring:
+  security:
+    saml2:
+      relyingparty:
+        registration:
+          okta:
+            assertingparty:
+              metadata-uri: https://dev-12413790.okta.com/app/exk9vpmiun382TGKS5d7/sso/saml/metadata
